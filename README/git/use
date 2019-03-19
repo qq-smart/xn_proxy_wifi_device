@@ -1,0 +1,4 @@
+git status      # View state 
+git add "Files name"    # Add modified files 
+git commit     # Submission of modified documents
+git push -u origin master  # Push modified files to remote repertory
