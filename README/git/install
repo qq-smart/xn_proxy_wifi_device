@@ -1,0 +1,2 @@
+sudo apt-get install git      # Install git
+git --version                 # View git version

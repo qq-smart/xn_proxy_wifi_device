@@ -1,0 +1,19 @@
+# Configuration for first use
+git config --global user.name "your name"    # Setting user name
+git config --global user.email "your email"  # Setting email
+git config user.name             # View user name
+git config user.email            # View email
+git config --list                # View all user information
+
+git config --global core.editor vim     #Git uses VIM as default editor in commit
+
+# Configuration of remote repertory GitHub 
+ssh-keygen -t rsa -C "youremail@example.com"  # Generate SSH public key to connect to remote repertory
+ls -al # View the generated. SSH directory
+cd .ssh # Enter the. SSH directory 
+vim id_rsa.pub  # Open the public key file and copy it to the public key content, then set it to GitHub
+
+
+git init  # Create a local repertory
+
+git remote add origin https://github.com/qq-smart/xn_proxy_wifi_device.git  # Add remote repertory
